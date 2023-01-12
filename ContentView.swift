@@ -88,7 +88,7 @@ struct ContentView: View {
                             .foregroundColor(Color.white)
                             .multilineTextAlignment(.center)
                             .padding(.top,600)
-                          //  .accessibilityInputLabels(["Goals"])
+                          
                         }
                    
                 })
@@ -109,10 +109,7 @@ struct ContentView: View {
                 }
                 
                         .rotationEffect(.init(degrees: -90))
-//                        .accessibilityLabel("Circle")
-//                           .accessibilityAction {
-//                               isVoiceOverPressed = true
-//                   }
+                 }
                 VStack{
                     Text(ConvertSecondsToTime(timeInSeconds: TimeRemaining))
                         .font(.system(size: 60))
@@ -133,13 +130,7 @@ struct ContentView: View {
                                 .frame(width: 34, height: 48)
                                 .font(.title)
                                 .foregroundColor(Color(red: 0.982, green: 0.602, blue: 0.252))
-//                                .accessibilityLabel("Play")
-//
-//                                .accessibilityAction {
-//                                    isVoiceOverPressed = true
-//
-//                                }
-//                                .accessibilityHint("Play")
+                              .accessibilityHint("Play")
                         }
                     }
                                .padding(.vertical)
@@ -172,21 +163,7 @@ struct ContentView: View {
                 
                 
             }
-//             .accessibilityLabel("Start")
-//             .accessibilityAction {
-//                 isVoiceOverPressed = true
-//             }
-//            Button(action: {
-//                sendMessage = true
-//            }) {
-//                Image(systemName: "paperplane")
-//                    .font(.title)
-//                    .accessibilityInputLabels(["1", "2", "3"])
-//            }
-//            .accessibilityLabel(["Start Timer", "Go To Goals"])
-//               .accessibilityAction {
-//                   isVoiceOverPressed = true
-//       }
+
         }
 }
     
@@ -209,45 +186,5 @@ struct ContentView: View {
     }
 }
 
-//                .accessibilityLabel("Play")
-//
-//                .accessibilityAction {
-//                    isVoiceOverPressed = true
-//                }
-//                .accessibilityLabel("Stop")
-//
-//                .accessibilityAction {
-//                    isVoiceOverPressed = true
-//                }
 
 
-// .accessibilityLabel("Record")
-//    .accessibilityAction {
-//        isVoiceOverPressed = true
-
-//                .toolbar{
-//                    ToolbarItem(placement: .navigationBarTrailing){
-//                        Button {
-//                            print("Done")
-//                        } label: {
-//                            NavigationLink(destination: BlankPage(), label: {
-//                                Image("Bar")
-//                                    .resizable()
-//                                    .frame(width: 45, height: 48)
-//                            })
-//                        }
-//                    }
-//                }
-
-//                        HStack(spacing: 15){
-//                        Button(action:{
-//                            self.count = 25
-//                            withAnimation(.default){
-//                                self.to = 25
-//                            }
-//                        }){
-//                            Image(systemName: "arrow.clockwise")
-//                                .frame(width: 34, height: 48)
-//                                //.foregroundColor(.cyan)
-//                        }
-//                        }
