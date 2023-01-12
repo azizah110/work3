@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>work3.xcscheme_^#shared#^_</key>
+		<key>Copy of work3.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>work3.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>38F68A86296A9E0300347F3E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>38F68A96296A9E0400347F3E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>38F68AA0296A9E0400347F3E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

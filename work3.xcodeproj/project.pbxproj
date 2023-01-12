@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3899CCF0296FD67200974160 /* Stay Focused2 in Resources */ = {isa = PBXBuildFile; fileRef = 3899CCEF296FD67200974160 /* Stay Focused2 */; };
+		3899CCF2296FD68700974160 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3899CCF1296FD68700974160 /* ContentView.swift */; };
+		38F03B04296D3E810002F117 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38F03B06296D3E810002F117 /* Localizable.strings */; };
+		38F03B0D296DAC7E0002F117 /* new.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F03B0C296DAC7E0002F117 /* new.swift */; };
 		38F68A8B296A9E0300347F3E /* work3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F68A8A296A9E0300347F3E /* work3App.swift */; };
-		38F68A8D296A9E0300347F3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F68A8C296A9E0300347F3E /* ContentView.swift */; };
 		38F68A8F296A9E0400347F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F68A8E296A9E0400347F3E /* Assets.xcassets */; };
 		38F68A92296A9E0400347F3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F68A91296A9E0400347F3E /* Preview Assets.xcassets */; };
 		38F68A9C296A9E0400347F3E /* work3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F68A9B296A9E0400347F3E /* work3Tests.swift */; };
 		38F68AA6296A9E0400347F3E /* work3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F68AA5296A9E0400347F3E /* work3UITests.swift */; };
 		38F68AA8296A9E0400347F3E /* work3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F68AA7296A9E0400347F3E /* work3UITestsLaunchTests.swift */; };
+		38F68AB5296A9E1E00347F3E /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F68AB4296A9E1E00347F3E /* Tips.swift */; };
+		38F68AB7296AC9AB00347F3E /* welcome To .swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F68AB6296AC9AB00347F3E /* welcome To .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3810B4FB29700DC100B40E88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3899CCEF296FD67200974160 /* Stay Focused2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Stay Focused2"; path = "../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/35E96C56-9B52-4EBC-9AE0-E22598D15086/Stay Focused2"; sourceTree = "<group>"; };
+		3899CCF1296FD68700974160 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/35E96C56-9B52-4EBC-9AE0-E22598D15086/Stay Focused2/Stay Focused2/ContentView.swift"; sourceTree = "<group>"; };
+		38F03B0B296D4A0B0002F117 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		38F03B0C296DAC7E0002F117 /* new.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new.swift; sourceTree = "<group>"; };
 		38F68A87296A9E0300347F3E /* work3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = work3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F68A8A296A9E0300347F3E /* work3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = work3App.swift; sourceTree = "<group>"; };
-		38F68A8C296A9E0300347F3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		38F68A8E296A9E0400347F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38F68A91296A9E0400347F3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		38F68A97296A9E0400347F3E /* work3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = work3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,8 @@
 		38F68AA1296A9E0400347F3E /* work3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = work3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F68AA5296A9E0400347F3E /* work3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = work3UITests.swift; sourceTree = "<group>"; };
 		38F68AA7296A9E0400347F3E /* work3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = work3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38F68AB4296A9E1E00347F3E /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
+		38F68AB6296AC9AB00347F3E /* welcome To .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "welcome To .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,12 +85,18 @@
 		38F68A7E296A9E0300347F3E = {
 			isa = PBXGroup;
 			children = (
+				3899CCF1296FD68700974160 /* ContentView.swift */,
+				38F68AB4296A9E1E00347F3E /* Tips.swift */,
+				38F03B0C296DAC7E0002F117 /* new.swift */,
+				38F68AB6296AC9AB00347F3E /* welcome To .swift */,
+				3899CCEF296FD67200974160 /* Stay Focused2 */,
 				38F68A89296A9E0300347F3E /* work3 */,
 				38F68A9A296A9E0400347F3E /* work3Tests */,
 				38F68AA4296A9E0400347F3E /* work3UITests */,
 				38F68A88296A9E0300347F3E /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		38F68A88296A9E0300347F3E /* Products */ = {
 			isa = PBXGroup;
@@ -95,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				38F68A8A296A9E0300347F3E /* work3App.swift */,
-				38F68A8C296A9E0300347F3E /* ContentView.swift */,
 				38F68A8E296A9E0400347F3E /* Assets.xcassets */,
 				38F68A90296A9E0400347F3E /* Preview Content */,
 			);
@@ -113,6 +129,7 @@
 		38F68A9A296A9E0400347F3E /* work3Tests */ = {
 			isa = PBXGroup;
 			children = (
+				38F03B06296D3E810002F117 /* Localizable.strings */,
 				38F68A9B296A9E0400347F3E /* work3Tests.swift */,
 			);
 			path = work3Tests;
@@ -213,6 +230,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 38F68A7E296A9E0300347F3E;
 			productRefGroup = 38F68A88296A9E0300347F3E /* Products */;
@@ -232,6 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				38F68A92296A9E0400347F3E /* Preview Assets.xcassets in Resources */,
+				3899CCF0296FD67200974160 /* Stay Focused2 in Resources */,
+				38F03B04296D3E810002F117 /* Localizable.strings in Resources */,
 				38F68A8F296A9E0400347F3E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38F68A8D296A9E0300347F3E /* ContentView.swift in Sources */,
+				3899CCF2296FD68700974160 /* ContentView.swift in Sources */,
 				38F68A8B296A9E0300347F3E /* work3App.swift in Sources */,
+				38F03B0D296DAC7E0002F117 /* new.swift in Sources */,
+				38F68AB5296A9E1E00347F3E /* Tips.swift in Sources */,
+				38F68AB7296AC9AB00347F3E /* welcome To .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +316,18 @@
 			targetProxy = 38F68AA2296A9E0400347F3E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38F03B06296D3E810002F117 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38F03B0B296D4A0B0002F117 /* ar */,
+				3810B4FB29700DC100B40E88 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		38F68AA9296A9E0400347F3E /* Debug */ = {
